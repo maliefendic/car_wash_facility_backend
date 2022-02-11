@@ -1,0 +1,8 @@
+.idea/
+node_modules/
+tmp/sqlitedb.db
+.DS_Store
+.env
+dist
+.vscode
+package-lock.json

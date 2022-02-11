@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "target": "es2015",
+    "types": [
+      "reflect-metadata"
+    ],
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "lib": [
+      "es6",
+      "dom"
+    ],
+    "outDir": "dist",
+    "allowUnreachableCode": true,
+    "baseUrl": ".",
+    "paths": {
+      "@database/*": ["src/database/*" ]
+    }
+  },
+  "compileOnSave": false,
+  "buildOnSave": false
+}
